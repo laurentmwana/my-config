@@ -1,0 +1,290 @@
+{
+  // ─────────────────────────────────────────────────────────────
+  // Window & Global UI
+  // ─────────────────────────────────────────────────────────────
+  "window.autoDetectColorScheme": true,
+  "window.zoomLevel": 1.5,
+  "window.title": "${activeEditorShort}",
+  "window.commandCenter": false,
+
+  // ─────────────────────────────────────────────────────────────
+  // Zen Mode
+  // ─────────────────────────────────────────────────────────────
+  "zenMode.fullScreen": true,
+  "zenMode.showTabs": "none",
+  "zenMode.centerLayout": true,
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "none",
+  "workbench.statusBar.visible": false,
+  "workbench.iconTheme": "symbols",
+  "workbench.preferredDarkColorTheme": "Tailwind Dark",
+  "workbench.welcomePage.walkthroughs.openOnInstall": false,
+  "workbench.tips.enabled": false,
+  "workbench.commandPalette.preserveInput": true,
+
+  // ─────────────────────────────────────────────────────────────
+  // Workbench Editors & Tabs
+  // ─────────────────────────────────────────────────────────────
+  "workbench.editor.showTabs": "none",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.editor.pinnedTabSizing": "compact",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.highlightModifiedTabs": true,
+
+  // ─────────────────────────────────────────────────────────────
+  // Explorer
+  // ─────────────────────────────────────────────────────────────
+  "explorer.openEditors.visible": 1,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmPasteNative": false,
+  "explorer.autoReveal": false,
+  "explorer.compactFolders": false,
+  "explorer.decorations.badges": false,
+
+  // ─────────────────────────────────────────────────────────────
+  // Tree & Breadcrumbs
+  // ─────────────────────────────────────────────────────────────
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.tree.indent": 16,
+  "workbench.tree.renderIndentGuides": "none",
+  "breadcrumbs.enabled": false,
+
+  // ─────────────────────────────────────────────────────────────
+  // Editor Font & Metrics
+  // ─────────────────────────────────────────────────────────────
+  "editor.fontFamily": "Jetbrains Mono",
+  "editor.fontSize": 17,
+  "editor.fontWeight": "400",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 40,
+  "editor.padding.top": 16,
+  "editor.codeLensFontSize": 13,
+
+  // ─────────────────────────────────────────────────────────────
+  // Editor Cursor & Selection
+  // ─────────────────────────────────────────────────────────────
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 4,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.selectionHighlight": false,
+  "editor.occurrencesHighlight": "off",
+  "editor.matchBrackets": "never",
+
+  // ─────────────────────────────────────────────────────────────
+  // Editor Layout & Visual Noise
+  // ─────────────────────────────────────────────────────────────
+  "editor.lineNumbers": "off",
+  "editor.glyphMargin": false,
+  "editor.folding": true,
+  "editor.showFoldingControls": "never",
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "trailing",
+  "editor.renderLineHighlight": "none",
+  "editor.renderControlCharacters": false,
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.guides.indentation": false,
+  "editor.colorDecorators": false,
+  "editor.lightbulb.enabled": "off",
+  "editor.codeLens": false,
+  "editor.stickyScroll.enabled": false,
+
+  // ─────────────────────────────────────────────────────────────
+  // Editor Wrapping & Indentation
+  // ─────────────────────────────────────────────────────────────
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 175,
+
+  // ─────────────────────────────────────────────────────────────
+  // Editor Hover & Links
+  // ─────────────────────────────────────────────────────────────
+  "editor.hover.enabled": "on",
+  "editor.hover.delay": 750,
+  "editor.linkedEditing": true,
+
+  // ─────────────────────────────────────────────────────────────
+  // Suggestions & IntelliSense
+  // ─────────────────────────────────────────────────────────────
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "on",
+    "strings": "on"
+  },
+  "editor.tabCompletion": "on",
+  "editor.snippetSuggestions": "top",
+  "editor.inlineSuggest.suppressSuggestions": false,
+  "editor.suggest.insertMode": "replace",
+  "editor.suggestFontSize": 16,
+  "editor.suggestLineHeight": 30,
+  "editor.suggestSelection": "recentlyUsed",
+  "editor.suggest.showWords": true,
+  "editor.acceptSuggestionOnCommitCharacter": true,
+  "editor.acceptSuggestionOnEnter": "smart",
+
+  // ─────────────────────────────────────────────────────────────
+  // Navigation
+  // ─────────────────────────────────────────────────────────────
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+
+  // ─────────────────────────────────────────────────────────────
+  // Formatting & Code Actions
+  // ─────────────────────────────────────────────────────────────
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // Highlighting & Colorization
+  // ─────────────────────────────────────────────────────────────
+  "editor.semanticHighlighting.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "keyword",
+          "variable.language",
+          "entity.other.attribute-name.html",
+          "entity.other.attribute-name",
+          "keyword.control",
+          "storage.type",
+          "comment.block",
+          "comment.line"
+        ],
+        "settings": { "fontStyle": "" }
+      }
+    ]
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // Unicode & Accessibility
+  // ─────────────────────────────────────────────────────────────
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.accessibilitySupport": "off",
+
+  // ─────────────────────────────────────────────────────────────
+  // Clipboard & Mouse
+  // ─────────────────────────────────────────────────────────────
+  "editor.emptySelectionClipboard": false,
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.mouseWheelScrollSensitivity": 1.5,
+
+  // ─────────────────────────────────────────────────────────────
+  // Diff Editor
+  // ─────────────────────────────────────────────────────────────
+  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.renderSideBySide": false,
+  "diffEditor.wordWrap": "off",
+
+  // ─────────────────────────────────────────────────────────────
+  // Terminal
+  // ─────────────────────────────────────────────────────────────
+  "terminal.integrated.fontFamily": "Jetbrains Mono",
+  "terminal.integrated.fontSize": 17,
+  "terminal.integrated.lineHeight": 1.9,
+  "debug.console.fontSize": 10,
+
+  // ─────────────────────────────────────────────────────────────
+  // Files: Saving & Cleanup
+  // ─────────────────────────────────────────────────────────────
+  "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.enableTrash": false,
+  "files.defaultLanguage": "markdown",
+  "files.saveConflictResolution": "overwriteFileOnDisk",
+
+  // ─────────────────────────────────────────────────────────────
+  // Search
+  // ─────────────────────────────────────────────────────────────
+  "search.smartCase": true,
+  "search.useIgnoreFiles": false,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "_ide_helper.php": true,
+    "_ide_helper_models.php": true,
+    ".php_cs.cache": true,
+    ".phpstorm.meta.php": true,
+    ".phpunit.result.cache": true
+  },
+
+
+  // ─────────────────────────────────────────────────────────────
+  // Language & Tooling
+  // ─────────────────────────────────────────────────────────────
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.suggest.completeFunctionCalls": true,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  // ─────────────────────────────────────────────────────────────
+  // PHP / Intelephense optimisations
+  // ─────────────────────────────────────────────────────────────
+  "intelephense.files.maxSize": 5000000,
+  "intelephense.files.maxMemory": 4096,
+
+  // ─────────────────────────────────────────────────────────────
+  // Language-Specific Overrides
+  // ─────────────────────────────────────────────────────────────
+  "[php]": { "editor.formatOnSave": false },
+  "[html]": { "editor.defaultFormatter": "bmewburn.vscode-intelephense-client" },
+  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+
+  // ─────────────────────────────────────────────────────────────
+  // Emmet
+  // ─────────────────────────────────────────────────────────────
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showAbbreviationSuggestions": false,
+  "emmet.includeLanguages": {
+    "blade.php": "html",
+    "twig": "html"
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // File Associations & Nesting
+  // ─────────────────────────────────────────────────────────────
+  "files.associations": {
+    ".php_cs.dist": "php",
+    ".php_cs": "php",
+    ".pre": "php",
+    "artisan": "php"
+  },
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+    "composer.json": "composer.lock",
+    "psalm.xml": "psalm-baseline.xml",
+    ".php-cs-fixer.php": ".php-cs-fixer.cache",
+    "phpunit.xml": ".phpunit.result.cache",
+    "*.php": "${basename}Test.php"
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // Notebooks & Misc
+  // ─────────────────────────────────────────────────────────────
+  "notebook.output.wordWrap": true,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "window.menuBarVisibility": "compact",
+  "chat.tools.terminal.outputLocation": "chat"
+}
